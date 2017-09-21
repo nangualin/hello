@@ -1,0 +1,19 @@
+{
+    "name": "nangua/my_app",
+    "description": "first_app",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "曾楠琳",
+            "email": "zengnanlin284@pingan.com.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Hello\\":"src/"
+        }
+    }
+}
