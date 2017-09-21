@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^6.2@dev"
+    },
     "autoload":{
         "psr-4":{
             "Hello\\":"src/"
